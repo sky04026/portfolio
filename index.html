@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styleSheet.css">
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="html2canvas.js"></script>
+        <script type="text/javascript" src="FileSaver.js-master/src/FileSaver.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+    </head>
+
+    <body>
+         /*
+      <!-- Hidden Info Page -->
+      <div id="aboutPage">
+		      <img id="back" src="img/exit.png"></img>
+		      <div id ="aboutTitle">THIS IS<br><span style="text-decoration-line:underline;text-decoration-style:double;">SMILING</span><br>TYPEFACE :)</div>
+		      <div id="aboutText"><span style="font-weight:bold;margin:0;">Smiling Type</span> is a typeface made by Mina Lynn Sohn. The font was created through blah blah blah blah blah blah blah blah blah</div>
+	    </div>
+
+        <!-- page container -->
+        <div id="container">
+
+            <!-- header -->
+            <div id="header">
+                <div id="infoTitle">INFO</div>
+                <img id="smileGif" src="img/SMILE_PSD.gif"></img>
+                <div id="printTitle">PRINT</div>
+            </div>
+
+      </div>
+
+      <!-- space for text -->
+      <textarea data-limit-rows="true" rows="8" cols = "30" maxlength="100" spellcheck = "false" autofocus = "autofocus" id="smile"></textarea>
+		<div id="box">
+		    <div class="row">
+				    <img class="glyph" id="a1" src="glyphs/typing.gif">
+				    <img class="glyph" id="a2" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a3" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a4" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a5" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a6" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a7" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a8" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a9" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a10" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a11" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a12" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a13" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a14" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a15" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a16" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a17" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a18" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a19" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a20" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a21" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a22" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a23" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a24" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a25" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a26" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a27" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a28" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a29" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a30" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a31" src="glyphs/empty.jpg">
+				    <img class="glyph" id="a32" src="glyphs/empty.jpg">
+            <img class="glyph" id="a33" src="glyphs/empty.jpg">
+            <img class="glyph" id="a34" src="glyphs/empty.jpg">
+            <img class="glyph" id="a35" src="glyphs/empty.jpg">
+            <img class="glyph" id="a36" src="glyphs/empty.jpg">
+            <img class="glyph" id="a37" src="glyphs/empty.jpg">
+            <img class="glyph" id="a38" src="glyphs/empty.jpg">
+            <img class="glyph" id="a39" src="glyphs/empty.jpg">
+            <img class="glyph" id="a40" src="glyphs/empty.jpg">
+            <img class="glyph" id="a41" src="glyphs/empty.jpg">
+            <img class="glyph" id="a42" src="glyphs/empty.jpg">
+            <img class="glyph" id="a43" src="glyphs/empty.jpg">
+            <img class="glyph" id="a44" src="glyphs/empty.jpg">
+            <img class="glyph" id="a45" src="glyphs/empty.jpg">
+            <img class="glyph" id="a46" src="glyphs/empty.jpg">
+            <img class="glyph" id="a47" src="glyphs/empty.jpg">
+            <img class="glyph" id="a48" src="glyphs/empty.jpg">
+            <img class="glyph" id="a49" src="glyphs/empty.jpg">
+            <img class="glyph" id="a50" src="glyphs/empty.jpg">
+            <img class="glyph" id="a51" src="glyphs/empty.jpg">
+            <img class="glyph" id="a52" src="glyphs/empty.jpg">
+            <img class="glyph" id="a53" src="glyphs/empty.jpg">
+            <img class="glyph" id="a54" src="glyphs/empty.jpg">
+            <img class="glyph" id="a55" src="glyphs/empty.jpg">
+            <img class="glyph" id="a56" src="glyphs/empty.jpg">
+            <img class="glyph" id="a57" src="glyphs/empty.jpg">
+            <img class="glyph" id="a58" src="glyphs/empty.jpg">
+            <img class="glyph" id="a59" src="glyphs/empty.jpg">
+            <img class="glyph" id="a60" src="glyphs/empty.jpg">
+            <img class="glyph" id="a61" src="glyphs/empty.jpg">
+            <img class="glyph" id="a62" src="glyphs/empty.jpg">
+            <img class="glyph" id="a63" src="glyphs/empty.jpg">
+            <img class="glyph" id="a64" src="glyphs/empty.jpg">
+            <img class="glyph" id="a65" src="glyphs/empty.jpg">
+            <img class="glyph" id="a66" src="glyphs/empty.jpg">
+            <img class="glyph" id="a67" src="glyphs/empty.jpg">
+            <img class="glyph" id="a68" src="glyphs/empty.jpg">
+            <img class="glyph" id="a69" src="glyphs/empty.jpg">
+            <img class="glyph" id="a70" src="glyphs/empty.jpg">
+            <img class="glyph" id="a71" src="glyphs/empty.jpg">
+            <img class="glyph" id="a72" src="glyphs/empty.jpg">
+            <img class="glyph" id="a73" src="glyphs/empty.jpg">
+            <img class="glyph" id="a74" src="glyphs/empty.jpg">
+            <img class="glyph" id="a75" src="glyphs/empty.jpg">
+            <img class="glyph" id="a76" src="glyphs/empty.jpg">
+            <img class="glyph" id="a77" src="glyphs/empty.jpg">
+            <img class="glyph" id="a78" src="glyphs/empty.jpg">
+            <img class="glyph" id="a79" src="glyphs/empty.jpg">
+            <img class="glyph" id="a80" src="glyphs/empty.jpg">
+            <img class="glyph" id="a81" src="glyphs/empty.jpg">
+            <img class="glyph" id="a82" src="glyphs/empty.jpg">
+            <img class="glyph" id="a83" src="glyphs/empty.jpg">
+            <img class="glyph" id="a84" src="glyphs/empty.jpg">
+            <img class="glyph" id="a85" src="glyphs/empty.jpg">
+            <img class="glyph" id="a86" src="glyphs/empty.jpg">
+            <img class="glyph" id="a87" src="glyphs/empty.jpg">
+            <img class="glyph" id="a88" src="glyphs/empty.jpg">
+            <img class="glyph" id="a89" src="glyphs/empty.jpg">
+            <img class="glyph" id="a90" src="glyphs/empty.jpg">
+            <img class="glyph" id="a91" src="glyphs/empty.jpg">
+            <img class="glyph" id="a92" src="glyphs/empty.jpg">
+            <img class="glyph" id="a93" src="glyphs/empty.jpg">
+            <img class="glyph" id="a94" src="glyphs/empty.jpg">
+            <img class="glyph" id="a95" src="glyphs/empty.jpg">
+            <img class="glyph" id="a96" src="glyphs/empty.jpg">
+            <img class="glyph" id="a97" src="glyphs/empty.jpg">
+            <img class="glyph" id="a98" src="glyphs/empty.jpg">
+            <img class="glyph" id="a99" src="glyphs/empty.jpg">
+
+		    </div>
+    </div>
+
+    <div id="bottomScrollText">
+      <marquee id="scrollText" behavior="scroll" scrollamount="10" direction="left">SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS // SPREAD YOUR HAPPINESS //</marquee>
+    </div>
+
+    </body>
+</html>

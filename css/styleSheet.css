@@ -1,0 +1,149 @@
+#container {
+  position: relative;
+  height: 100%;
+}
+
+#header {
+	text-align: center;
+}
+
+#infoTitle {
+  display: inline-block;
+  /* move to left */
+  position: relative;
+  float: left;
+  font-family: 'SuisseBPIntl-Regular', Regular;
+  font-size: 28px;
+  letter-spacing: -1.4px;
+  margin: 15px;
+}
+
+#printTitle {
+  display: inline-block;
+  /* move to right */
+  position: relative;
+  float: right;
+
+
+  font-family: 'SuisseBPIntl-Regular', Regular;
+  font-size: 28px;
+  letter-spacing: -1.4px;
+  margin: 15px;
+}
+
+#infoTitle:hover, #printTitle:hover, #back:hover{
+  cursor: pointer;
+}
+
+#smileGif {
+  display: inline-block;
+  width: 6%;
+  height: 6%;
+}
+
+#box{
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	position: relative;
+	height: calc(100% - 120px);
+	width: calc(100% - 80px);
+	color: white;
+	font-size: 4em;
+}
+
+/* text box for input */
+#smile{
+	position: absolute;
+	background-color: #ffffff;
+	left: 0;
+	top: 100px;
+	height: calc(100% - 100px);
+	width: 100%;
+	color: white;
+	font-size: .000em;
+	border-style: none;
+	opacity: 0;
+	z-index: 2;
+}
+
+.glyph{
+	height: 120px;
+	width: 96px;
+	float: left;
+	background-color: #ffffff;
+}
+
+.row{
+	height: 400px;
+	width: 100%;
+}
+
+#bottomScrollText{
+  display: block;
+  position: absolute;
+  bottom:0;
+  margin: 15px;
+  height: 80px;
+}
+
+#scrollText {
+  display: inline-block;
+  /* move to left */
+  position: relative;
+  float: left;
+  font-family: 'SuisseBPIntl-Regular', Regular;
+  font-size: 28px;
+  letter-spacing: -1.4px;
+  margin: 15px;
+}
+ /*
+#aboutPage{
+	position: fixed;
+	height: 400px;
+	width: 600px;
+	background-color: #000000;
+	margin-top: 100px;
+	left: calc(50% - 450px);
+	z-index: -2;
+	opacity: 0;
+	
+}
+
+#aboutTitle{
+	margin-top: 12px;
+	margin-bottom: 50px;
+	color: white;
+	font-size: 2.4em;
+	line-height: 1.2em;
+	text-align: center;
+	font-family: 'SuisseBPIntl-Regular', Regular;
+}
+
+#aboutText{
+	color: white;
+	font-size: 0.9em;
+	line-height: 1.7em;
+	width: 600px;
+	margin-left: 160px;
+  font-family: 'SuisseBPIntl-Regular', Regular;
+}
+ */
+#back{
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	top: 10px;
+	right: 10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	z-index: 14;
+}
+
+
+/* add SuisseBPIntl-Regular font */
+@font-face {
+  font-family: 'SuisseBPIntl-Regular';
+  src: url('fonts/SuisseBPIntl-Regular.otf') format('opentype');
+}
